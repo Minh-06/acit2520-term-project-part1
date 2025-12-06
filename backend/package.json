@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node --watch src/index.js",
-    "test": "node --test --test-reporter node-test-reporter 'tests/api.test.js'"
+    "test": "node --test --test-reporter node-test-reporter tests/api.test.js"
   },
   "keywords": [],
   "author": "",
