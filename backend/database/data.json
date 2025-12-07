@@ -1,17 +1,23 @@
 {
   "users": [
     {
-      "id": "d94363d7-26b8-46b7-bad0-bac3269fc5ae",
+      "id": "cbe2e6a5-c067-4ba2-a672-ee8f106accab",
       "username": "avatarUser",
       "password": "pass",
       "profilePicture": "https://example.com/avatar.png"
+    },
+    {
+      "id": "ec34eba0-a3d9-4a3a-9d29-da7de75a5328",
+      "username": "minh__do",
+      "password": "asd",
+      "profilePicture": ""
     }
   ],
   "tips": [
     {
-      "id": "f2e839cf-941a-45b2-b20e-ff399082c3a7",
+      "id": "4ac6ebaa-2a92-4d9b-84c2-ef301507f2d3",
       "title": "Tip with avatar",
-      "userId": "d94363d7-26b8-46b7-bad0-bac3269fc5ae"
+      "userId": "cbe2e6a5-c067-4ba2-a672-ee8f106accab"
     }
   ]
 }

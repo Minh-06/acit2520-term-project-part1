@@ -31,12 +31,12 @@ export default {
     };
 
     // TODO:  push this user object into db.users
-    db.users.push(user);
-
     // TODO:  call the writeDb(db) operation to save changes.
+    // TODO:  return the user object but without their password  (only id, username, profilePicture)
+
+    db.users.push(user);
     await writeDb(db);
 
-    // TODO:  return the user object but without their password  (only id, username, profilePicture)
     return {
       id: user.id,
       username: user.username,
@@ -46,9 +46,8 @@ export default {
 
   async login({ username, password }) {
     // TODO: get ahold of the db using readDb();
-    const db = await readDb();
-
     // TODO: check the database for a user with a matching username and password
+    const db = await readDb();
     const user = db.users.find(
       (u) => u.username === username && u.password === password
     );
